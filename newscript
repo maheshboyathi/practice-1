@@ -1,0 +1,10 @@
+pipeline{
+    agent any
+    stages{
+        stege('build'){
+            steps{
+                sh 'ifconfig'
+            }
+        }
+    }
+}
